@@ -54,6 +54,10 @@ formEl.addEventListener("submit", (event) => {
   //formEl.reset(); // Reset the form fields 
 });
 
+window.onload = function() {
+  alert("Image Search with added button on the bottom to search more Images. Start with animals (cats, dogs, butterfly etc). Also mobile frendly ... Let's try  :) ");
+};
+
 showMoreButtonEl.addEventListener("click", () => {
   searchImages();
 });
